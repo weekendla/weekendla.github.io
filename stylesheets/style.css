@@ -179,11 +179,6 @@ iframe{
 	margin:0px auto;
 	padding: 10px;
 	border: 1px solid #d8d8d8;
-	-moz-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-webkit-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-    -o-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-    -ms-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-    transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 }
 
 /* Wedding Page */
@@ -392,4 +387,8 @@ and (max-device-width : 1024px) {
 
 .flightprices {
     text-align: center;    
+}
+
+img {
+    
 }
