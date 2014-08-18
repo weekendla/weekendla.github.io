@@ -51,6 +51,13 @@
         -webkit-box-shadow: rgba(26, 26, 26, 0.1) 0 1px 3px 0;
         box-shadow: rgba(26, 26, 26, 0.1) 0 1px 3px 0;
     }
+    .contact-form p{
+        font-family: roboto;
+        font-weight: 300;
+        font-size: larger;
+        text-align: center;
+        padding: 10px 0;
+    }
     @media (max-width: 500px) {
         .contact-form {
             margin: 0 0 100px;
