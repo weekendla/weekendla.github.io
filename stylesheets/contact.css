@@ -57,6 +57,8 @@
         font-size: larger;
         text-align: center;
         padding: 10px 0;
+        margin-bottom: 0;
+        border-bottom: 1px #e6e6e6 solid;
     }
     @media (max-width: 500px) {
         .contact-form {
@@ -76,7 +78,7 @@
         }
     }
     .contact-form .email input, .contact-form .name input {
-        padding: 23px 0 8px 23px;
+        padding: 17px 0 17px 17px;
     }
     .contact-form .email {
         border-left: 1px #e6e6e6 solid;
@@ -105,12 +107,12 @@
         display: block;
         overflow: hidden;
         padding: 10px;
+        text-align: center;
     }
     .contact-form .submit .button {
         background: #3498db;
         border: 1px #3498db solid;
         color: white;
-        float: right;
         padding: 9px 0;
         width: 100px;
         -moz-border-radius: 5px;
